@@ -1,0 +1,55 @@
+.main{
+    text-align: center;
+  background-color: #afafaf;
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  padding-bottom: 30px;
+  padding-top: 10px;
+
+}
+.btn, .btn1{
+
+    margin: 7px;
+    border: none;
+    border-radius: 7.5px;
+    background-color: grey;
+    color: honeydew;
+    font-size: large;
+    width: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.result{
+    border: none;
+    width: 91.5%;
+    margin: 0 auto;
+    text-align: right;
+    margin: 20px auto;
+    padding:20px;
+   font-size: 30px;
+   margin-top: 0;
+
+
+}
+.clear{
+    width: 50%;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg) scale(0.1);
+        opacity: 0.5;
+        }
+    100%{
+        transform: rotate(360deg) scale(1);
+        opacity: 1;
+        }
+}
+
+.main{
+    animation:rotate 1s forwards 0s ease-out;
+}
